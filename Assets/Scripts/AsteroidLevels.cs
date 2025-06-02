@@ -22,8 +22,8 @@ public static class LevelDatabase
     public static LevelData[] levels = new LevelData[]
         {
         new LevelData("Level 1", 6, 1f),
-        new LevelData("Level 2", 7, 1.5f),
-        new LevelData("Level 3", 8, 2.0f),
+        new LevelData("Level 2", 10, 1.5f),
+        new LevelData("Level 3", 14, 2.0f),
         //new LevelData("Level 4", 8, 1.5f),
         //new LevelData("Level 5", 8, 1.7f),
         //new LevelData("Level 6", 9, 1.7f),
