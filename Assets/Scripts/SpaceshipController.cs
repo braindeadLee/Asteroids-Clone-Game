@@ -21,6 +21,12 @@ public class SpaceshipController : MonoBehaviour
 
     private Vector3 LastUpDirection;
 
+    void Start()
+    {
+        Debug.Log("Screen Width: " + Screen.width);
+        Debug.Log("Screen Height: " + Screen.height);
+    }
+
     // Update is called once per frame
     void Update()
     {
