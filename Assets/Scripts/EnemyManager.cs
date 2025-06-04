@@ -38,8 +38,8 @@ public class EnemyManager : MonoBehaviour
     public AsteroidType[] AsteroidTypes = new AsteroidType[]
     {
         new AsteroidType(1f, 50),
-        new AsteroidType(0.75f, 80),
-        new AsteroidType(0.5f, 100)
+        new AsteroidType(0.66f, 80),
+        new AsteroidType(0.33f, 100)
     };
 
     public ChilderoidTraits[] childTraits = new ChilderoidTraits[]

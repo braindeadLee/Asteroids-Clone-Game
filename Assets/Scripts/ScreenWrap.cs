@@ -5,6 +5,7 @@ using UnityEngine;
 public class ScreenWrap : MonoBehaviour
 {
     // Start is called before the first frame update
+    public float ScaleModifier = 0.9f;
     void Awake() => CameraUtility.CalculateDimensions();
 
     // Update is called once per frame
@@ -13,7 +14,8 @@ public class ScreenWrap : MonoBehaviour
         //Vertical
         Vector3 position = transform.position;
 
-        float bodyheight = transform.lossyScale.y * 0.9f;
+        float bodyheight = transform.lossyScale.y * ScaleModifier;
+        Debug.Log("");
 
         if (position.x > (CameraUtility.width / 2) + bodyheight)
         {
