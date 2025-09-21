@@ -32,6 +32,7 @@ public class SpaceshipController : MonoBehaviour
         if (keyboard.wKey.IsPressed())
         {
             _shouldMoveForward = true;
+            Debug.Log("Im pressing it.");
         }
             
         else if (keyboard.wKey.wasReleasedThisFrame)

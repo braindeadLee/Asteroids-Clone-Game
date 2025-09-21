@@ -14,6 +14,8 @@ public class ScreenWrap : MonoBehaviour
         Vector3 position = transform.position;
 
         float bodyheight = transform.lossyScale.y * 0.9f;
+        Debug.Log("");
+        Debug.Log("");
 
         if (position.x > (CameraUtility.width / 2) + bodyheight)
         {
